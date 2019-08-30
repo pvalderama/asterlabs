@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import logoA from './logo.png';
 import './App.css';
 import Transfer from './Transfer';

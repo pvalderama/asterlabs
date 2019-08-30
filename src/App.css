@@ -39,20 +39,28 @@
 }
 
 .fromAccount{
+  display: flex;
+  justify-content: center;
   padding-left: 30px;
   padding-top: 30px;
   padding-bottom: 30px; 
   padding-right: 30px; 
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
 }
 
+.selecter{
+  padding-left: 20px; 
+}
+
 .toAccount{
-    padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 30px; 
     padding-right: 30px; 
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;  
 }
 

@@ -67,19 +67,25 @@ class Transfer extends React.Component{
                     <div className="accounts">
                     <div className="fromAccount">
                     From Account: 
+                    <div className="selecter">
+
                     <select onChange={this.handleFromAccountChange} value={this.state.fromAccount}>
                         <option value={0}>Account 1</option>
                         <option value={1}>Account 2</option>
                         <option value={2}>Account 3</option>
                     </select>
                     </div>
+                    </div>
                     <div className="toAccount">
                     To Account:
+                    <div className="selecter">
+
                     <select onChange={this.handleToAccountChange} value={this.state.toAccount}>
                         <option value={0}>Account 1</option>
                         <option value={1}>Account 2</option>
                         <option value={2}>Account 3</option>
                     </select>
+                    </div>
                     </div>
                     </div>
                     <div className="input">
